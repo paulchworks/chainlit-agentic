@@ -25,7 +25,7 @@ bash
 1
 aws configure
 Set the correct region (default: us-west-2).
-Replace the agent ID (26G13YHBTH) and alias ID (KMNFWHMJDN) in invokeAgent() with your Bedrock agent details.
+Replace the agent ID and alias ID in invokeAgent() with your Bedrock agent details.
 ▶️ Usage
 Run the Application
 bash
