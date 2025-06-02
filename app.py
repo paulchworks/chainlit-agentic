@@ -61,7 +61,7 @@ async def start_chat():
     cl.user_session.set("sessionId", "None")
     
     # Add title and header
-    await cl.Message(content="# My Pet Store\n## by Amazon Bedrock Agents").send()
+    await cl.Message(content="# Multi-Agent Collaboration\n## using Amazon Bedrock Agents").send()
     await cl.Message(content="**Orchestrator Agent:**").send()
 
 @cl.on_message
