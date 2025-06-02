@@ -1,0 +1,3 @@
+chainlit
+pprintpp
+boto3
