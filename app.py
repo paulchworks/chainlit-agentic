@@ -4,6 +4,10 @@ import json
 import logging
 import pprint
 from datetime import datetime
+#import dotenv 
+
+# Load environment variables from .env file
+#dotenv.load_dotenv()
 
 class DateTimeEncoder(json.JSONEncoder):
     def default(self, obj):
